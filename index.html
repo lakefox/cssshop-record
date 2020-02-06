@@ -18,12 +18,11 @@
     <script src="https://record.lakefox.net/js/index.js" charset="utf-8"></script>
     <script src="https://record.lakefox.net/js/renderGroups.js" charset="utf-8"></script>
     <script type="text/javascript">
-        var text = `
+    var text = `
 
-        `;
+    `;
         action = JSON.parse(text);
         artboards = action.artboards;
-        localStorage.action = JSON.stringify(action);
         canvas = artboards[0];
         delete canvas.groups;
         delete canvas.groupName;
